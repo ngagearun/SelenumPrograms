@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JqueryUI" parallel="none">
+  <test name="SmokeTestig">
+  <parameter name="browsername" value="chrome"></parameter>
+    <classes>      
+     <class name="com.testng.DroppableDemo"/>
+     <class name="com.testng.DraggableDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

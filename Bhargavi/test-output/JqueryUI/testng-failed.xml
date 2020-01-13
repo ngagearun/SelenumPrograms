@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JqueryUI]" parallel="none">
+  <parameter name="browsername" value="chrome"/>
+  <test name="SmokeTestig(failed)" parallel="none">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.testng.DraggableDemo">
+        <methods>
+          <include name="teststarted"/>
+          <include name="Draggable"/>
+          <include name="teststopped"/>
+        </methods>
+      </class> <!-- com.testng.DraggableDemo -->
+      <class name="com.testng.DroppableDemo">
+        <methods>
+          <include name="Droppable"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="teststarted"/>
+          <include name="teststopped"/>
+        </methods>
+      </class> <!-- com.testng.DroppableDemo -->
+    </classes>
+  </test> <!-- SmokeTestig(failed) -->
+</suite> <!-- Failed suite [JqueryUI] -->
